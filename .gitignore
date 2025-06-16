@@ -1,0 +1,12 @@
+/.gitignore
+/.devenv/
+/.devenv.flake.nix
+/devenv.nix
+/devenv.yaml
+/devenv.lock
+/.direnv/
+/.envrc
+/data/download_mnist.py
+/digit_classification.egg-info/
+/outputs/
+__pycache__/

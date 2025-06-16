@@ -1,0 +1,17 @@
+training:
+  epoch_count: 10
+  batch_size: 32
+  learning_rate: 1.0e-3
+  validation_fraction: 0.2
+
+  network:
+    network_id: cnn
+    channel_count_hidden: 32  # Updated value
+    convolution_kernel_size: 3  # Updated value
+    mlp_hidden_unit_count: 128  # Updated value
+    input_image_shape: [64, 64]  # Assuming input images are 64x64
+    output_size: 3  # Number of output classes (columns Type1.1, Type1.2, Type1.3)
+
+evaluation:
+  batch_size: 1024
+  validation_fraction: 0.2

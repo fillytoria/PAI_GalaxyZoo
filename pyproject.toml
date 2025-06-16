@@ -1,0 +1,22 @@
+[project]
+name = "galaxy_classification"
+version = "0.1.0"
+description = "Galaxy Classification"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "dacite>=1.9.2",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.6.1",
+    "simple-parsing>=0.1.7",
+    "tables>=3.10.2",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["Galaxy_classification"]
